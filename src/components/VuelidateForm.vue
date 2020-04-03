@@ -47,7 +47,7 @@
 import { required, maxLength, email } from "vuelidate/lib/validators";
 
 export default {
-  name: "HelloWorld",
+  name: "VuetifyForm",
   // BEGIN OF CODE
   validations: {
     name: { required, maxLength: maxLength(10) },
