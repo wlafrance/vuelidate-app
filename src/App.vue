@@ -21,15 +21,21 @@
     </v-app-bar>
 
     <v-content>
-      <v-system-bar class="mt-6">
-        <h3>Pure Vuetify Example Below</h3>
-      </v-system-bar>
-      <VuetifyForm />
+      <v-container fluid>
+        <v-row>
+          <v-col cols="4">
+            <v-system-bar class="mt-6">
+              <h3>Pure Vuetify Example Below</h3>
+            </v-system-bar>
+            <VuetifyForm />
 
-      <v-system-bar class="mt-6">
-        <h3>Vuelidate Example Below</h3>
-      </v-system-bar>
-      <VuelidateForm />
+            <v-system-bar class="mt-6">
+              <h3>Vuelidate Example Below</h3>
+            </v-system-bar>
+            <VuelidateForm />
+          </v-col>
+        </v-row>
+      </v-container>
     </v-content>
   </v-app>
 </template>
