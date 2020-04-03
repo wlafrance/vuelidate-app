@@ -21,18 +21,28 @@
     </v-app-bar>
 
     <v-content>
+      <v-system-bar class="mt-6">
+        <h3>Pure Vuetify Example Below</h3>
+      </v-system-bar>
       <HelloWorld />
+
+      <v-system-bar class="mt-6">
+        <h3>Vuelidate Example Below</h3>
+      </v-system-bar>
+      <VuelidateForm />
     </v-content>
   </v-app>
 </template>
 
 <script>
 import HelloWorld from "./components/HelloWorld";
+import VuelidateForm from "./components/VuelidateForm";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    HelloWorld,
+    VuelidateForm
   },
 
   data: () => ({
